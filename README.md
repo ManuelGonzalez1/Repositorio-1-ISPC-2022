@@ -1,1 +1,0 @@
-# Projecto-ISPC-SCRUM-2022
