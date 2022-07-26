@@ -1,1 +1,1 @@
-# Projecto-ISPC-manuel-2022
+# Projecto-ISPC-SCRUM-2022
