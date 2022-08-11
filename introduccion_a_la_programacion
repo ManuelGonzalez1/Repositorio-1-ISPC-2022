@@ -1,0 +1,59 @@
+# Cada estudiante deberá  resolver  UN (1) ejercicio a elección (diferentes entre cada uno de los integrantes)
+# de los 10 ejercicios propuestos por el docente y subir en su propia rama del GitHub.
+
+# Escribir el código en Python que permita realizar lo siguiente:
+# 1) Crear una lista en Python denominada “Dueño” que contenga los siguientes valores:
+
+#   28957346,  Juan,  Perez, 4789689,  Belgrano 101
+
+# Dichos datos se corresponden  con los datos del dueño de un perro (DNI, nombre, apellido, teléfono y dirección).
+# Muestre en pantalla el teléfono del dueño si el DNI es mayor a 26000000.
+
+Dueño = [28957346,  "Juan",  "Perez", 4789689,  "Belgrano 101"]
+
+if Dueño[0] > 26000000:
+    print("El telefono del primer dueño del local es:", Dueño[3])
+
+# 2) Crear una lista en Python denominada “Dueno2”  y recorrerla con un bucle
+# mostrando sus elementos por pantalla con excepción del DNI y el apellido. Los elementos de la lista son:
+
+#   23546987,  “Maria”,  “Perez”, 4789689,  “Pueyrredon  811”
+
+# que representan los datos del dueño de un perro (DNI, nombre, apellido, teléfono y dirección) 
+
+Dueño2 = [23546987,  "María",  "Perez", 4789689,  "Pueyrredon  811"]
+
+print()
+
+# 3) Crear un lista en Python denominado “Perro” que contenga los siguientes valores:
+
+#   13,  Puppy,  12/12/2012 , Macho, 123
+
+# Que se corresponde con los datos de un perro de nuestra base de datos 
+#(Id_Perro, nombre, fecha de nacimiento, sexo y dni del dueño).
+# Modificar la fecha de nacimiento por 13/12/2012 y reemplazar “dni del dueño” por 28957346 .
+
+Perro = [13,  "Puppy",  12, 12, 2012, "Macho", 123]
+
+Perro[2], Perro[6] = 13, 28957346
+
+print(Perro)
+
+# 4) Crear un lista en Python denominado “Perro2” que contenga los siguientes valores:
+
+#   14,  Fido,  12/12/2012 , Macho, 23546987
+
+# Recorrer la lista “Perro” con un bucle y mostrar sus elementos por pantalla,
+# comenzando desde el último hasta el primero.
+
+Perro2 = [14, "Fido", 12/12/2012, "Macho", 23546987]
+
+# 5) Crear una tupla en Python con el nombre de “Historial” la cual contenga los siguientes valores:
+
+#   2350, 5960, 23000, 1000, 8900
+
+# Que representa montos de atención en pesos por diferentes servicios/consultas de la mascota “Puppy”. 
+# Calcular el monto total gastado a lo largo del tiempo por atención de “Puppy”.
+# Si el gasto efectuado es menor a 30000, mostrar en pantalla dicho resultado, caso contrario mostrar el mensaje “Gastos por encima de lo presupuestado”.
+
+Historial = (2350, 5960, 23000, 1000, 8900)
