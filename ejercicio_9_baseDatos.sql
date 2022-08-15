@@ -18,9 +18,9 @@ PRIMARY KEY(DNI)
 CREATE TABLE historial (
 id_historial FLOAT,
 fecha DATE,
-Perro VARCHAR (10),
-Descripcion VARCHAR (250),
-Monto FLOAT,
+perro VARCHAR (10),
+descripcion VARCHAR (250),
+monto FLOAT,
 PRIMARY KEY (id_historial)
 );
 
